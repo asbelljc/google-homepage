@@ -1,7 +1,7 @@
 <style>
     img {
         display: block;
-        padding: 109px 0 0 0;
+        padding: 200px 0 0 0;
         margin-left: auto;
         margin-right: auto;
     }
@@ -57,7 +57,7 @@
         color: #202124;
     }
 
-    ul {
+    #top {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -74,8 +74,9 @@
     }
 
     a {
+        color: black;
         display: block;
-        padding: 8px;
+        padding: 16 2 10 16;
         opacity: 0.87;
         text-decoration: none;
     }
@@ -83,13 +84,22 @@
     a:hover {
         text-decoration: underline;
     }
+
+    #bottom {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 </style>
 
-<ul>
+<ul id="top">
     <li><a href="">About</a></li>
     <li><a href="">Store</a></li>
-    <li id="Gmail"><a href="">Gmail</a></li>
     <li id="Images"><a href="">Images</a></li>
+    <li id="Gmail"><a href="">Gmail</a></li>
 </ul>
 
 <div>
@@ -100,4 +110,14 @@
         <button class="button" type="submit">Google Search</button>
         <button class="button" type="submit">I'm Feeling Lucky</button>
     </div>
+
+<ul id="bottom">
+    <li><a href="">Advertising</a></li>
+    <li><a href="">Business</a></li>
+    <li><a href="">How Search Works</a></li>
+    <li id="Carbon"><a href="">Carbon neutral since 2007</a></li>
+    <li id="Privacy"><a href="">Privacy</a></li>
+    <li id="Terms"><a href="">Terms</a></li>
+    <li id="Settings"><a href="">Settings</a></li>
+</ul>
 </div>
